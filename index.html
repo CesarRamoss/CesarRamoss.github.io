@@ -5,15 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Web</title>
+    <style>   
+           
+        .conteudo {
+            margin: 0 auto;
+            width: 50%;
+            background-color: #b7b7a4;
+            padding: 20px;
+            border-radius: 10px;
+            color: #283618
+        }
+        #meunome {
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0;
+        }
+        p, li {
+            font-family: sans-serif;
+            font-style: italic;
+            line-height: 25px;
+        }
+        .central {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+        img {
+            border-radius: 150px 50px;
+        }
+        h2, h3 {
+            font-family: sans-serif;
+            color: #2d6a4f;
+        }
+        .musica {
+            font-size: 20px;
+        }
+        .computacao {
+            font-size: 23px;
+        }
+        .jogos {
+            font-size: 26px;
+        }
+        
+    </style>
 </head>
 <body>
-    <div style="margin: 0 auto; width: 50%;">
-    <h1 id="meunome" >César Augusto Ramos</h1>
+    <div class="conteudo">
+        <div class="central">
+            <h1 id="meunome" >César Augusto Ramos</h1>
     
-    <figure >
-        <img src="eu.jpg" alt="Minha foto" width="200px" id="eu" > 
-        <figcaption><em>Em meio à natureza</em></figcaption>
-    </figure>
+            <figure>
+                <img src="eu.jpg" alt="Minha foto" width="250px" id="eu" > 
+                <figcaption><em>Em meio à natureza</em></figcaption>
+            </figure>
+        </div>
+   
     
     <h2>Quem sou eu</h2>
     <p style="text-align: justify;">Embora o abandono à raiz <strong> mineira de um povo</strong>, trago comigo em <strong> Campinas- SP </strong>a vontade de crescimento profissional sem perder o foco, expectativa de valorização a cada meta alcançada, mantendo sempre a humildade e a confiança conquistada por anos de trabalho em equipe nas empresas.
@@ -21,14 +67,14 @@
         Acredito que a maior recompensa pelo nosso trabalho não é o que nos pagam por ele, mas aquilo em que ele nos transforma!</p>
         <h3>Habilidades</h3>
     <ul>
-        <li>Música</li>
-        <li>Computação</li>
-        <li>Jogos</li>
+        <li class="musica">Música</li>
+        <li class="computacao">Computação</li>
+        <li class="jogos">Jogos</li>
     </ul>
     <a href="#eu">Minha foto</a>
 
     <h3>Links de acesso rápido</h3>
-        <a href="https://digitalinnovation.one/sign-in?redirect=%2Ftrack%2Fhtml-web-developer%3Ftab%3Dpath" target="blanck">Curso legal!!</a> <br>
+        <a href="https://digitalinnovation.one/sign-in?redirect=%2Ftrack%2Fhtml-web-developer%3Ftab%3Dpath" target="blanck">Curso legal!!</a> <br><br>
         <a href="#meunome">Say my name!</a>
     </div>
 </body>
