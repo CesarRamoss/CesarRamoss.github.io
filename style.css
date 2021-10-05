@@ -1,0 +1,63 @@
+.conteudo {
+    margin: 0 auto;
+    width: 50%;
+    background-color: #b7b7a4;
+    padding: 20px;
+    border-radius: 10px;
+    color: #283618
+}
+#meunome {
+    font-family: 'Raleway', sans-serif;
+    margin: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: black;
+}
+p, li {
+    font-family: sans-serif;
+    font-style: italic;
+    line-height: 25px;
+    margin: 0 15px;
+    text-align: justify;
+}
+.borda{
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 10px;
+}
+figure {
+    float: left;    
+    padding: 10px;
+    background-color: white;
+    border-radius: 150px 30px;
+    margin: 90px 30px 10px;
+}
+figcaption {
+    margin-left: 17px;
+}
+img {
+    border-radius: 150px 50px;
+}
+h2, h3 {
+    font-family: 'Raleway',sans-serif;
+    color: #2d6a4f;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.musica {
+    font-size: 20px;
+}
+.computacao {
+    font-size: 23px;
+}
+.jogos {
+    font-size: 26px;
+}
+a {
+    text-decoration: none;
+    margin-left: 10px;
+}
+ul li:nth-child(odd){
+    color: black;
+}
+
