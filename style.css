@@ -24,13 +24,14 @@ p, li {
     border: 1px solid white;
     padding: 15px;
     border-radius: 10px;
+    margin: 0;
 }
 figure {
     float: left;    
     padding: 10px;
     background-color: white;
     border-radius: 150px 30px;
-    margin: 90px 30px 10px;
+    margin: 20px 30px 10px;
 }
 figcaption {
     margin-left: 17px;
@@ -42,7 +43,7 @@ h2, h3 {
     font-family: 'Raleway',sans-serif;
     color: #2d6a4f;
     margin-left: 10px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 .musica {
     font-size: 20px;
