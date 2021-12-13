@@ -90,7 +90,7 @@ nav ul {
 }
 
 nav li {
-  margin: 0 40px;
+  margin: 0 30px;
   list-style: none;
 }
 
@@ -118,8 +118,9 @@ nav li {
 }
 
 .button-container:hover {
-  background-color: rgba(230, 184, 59, 0.5);
+  background-color: rgba(230, 184, 59, 0.8);
   color: black;
+  transition: ease-in-out 0.5s;
 }
 
 .about {
